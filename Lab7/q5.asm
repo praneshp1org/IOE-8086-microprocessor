@@ -40,6 +40,7 @@ ex:    INC BX
 	MOV AH, 09H
 	INT 21H
 	;; ending program
+    ;; shshsh
 	MOV AX, 4C00H
 	INT 21H
 	MAIN ENDP
